@@ -1,0 +1,18 @@
+# IDEs and OS specific files
+.vscode/           # Visual Studio Code specific settings
+.idea/             # PhpStorm/IntelliJ IDEA specific settings
+.DS_Store          # macOS specific file
+Thumbs.db          # Windows specific thumbnail cache
+
+# Composer dependencies (if you add Composer later)
+/vendor/
+
+# Logs and temporary files
+*.log
+/logs/             # If you create a 'logs' directory
+/tmp/              # General temporary files
+/cache/            # If you implement any caching
+*.tmp
+
+# User uploads (if you add file upload functionality, e.g., in assets/uploads)
+/assets/uploads/
