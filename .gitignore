@@ -4,15 +4,15 @@
 .DS_Store          # macOS specific file
 Thumbs.db          # Windows specific thumbnail cache
 
-# Composer dependencies (if you add Composer later)
+# Composer dependencies 
 /vendor/
 
 # Logs and temporary files
 *.log
-/logs/             # If you create a 'logs' directory
-/tmp/              # General temporary files
-/cache/            # If you implement any caching
+/logs/             
+/tmp/              
+/cache/            
 *.tmp
 
-# User uploads (if you add file upload functionality, e.g., in assets/uploads)
+# User uploads 
 /assets/uploads/
